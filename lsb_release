@@ -1,0 +1,12 @@
+#!/bin/bash
+if [[ "$*" == *"-rs"* ]]; then
+    echo "22.04"
+elif [[ "$*" == *"-i"* ]] || [[ "$*" == *"-id"* ]]; then
+    echo "Ubuntu"
+elif [[ "$*" == *"-d"* ]]; then
+    echo "Ubuntu 22.04.4 LTS"
+elif [[ "$*" == *"-a"* ]]; then
+    echo -e "LSB Version:\tn/a\nDistributor ID:\tUbuntu\nDescription:\tUbuntu 22.04.4 LTS\nRelease:\t22.04\nCodename:\tjammy"
+else
+    echo "22.04"
+fi

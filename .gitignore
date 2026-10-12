@@ -1,0 +1,8 @@
+*.deb
+*.pkg.tar.zst
+*.tar.gz
+*.asar
+src/
+pkg/
+tmp/
+node_modules/

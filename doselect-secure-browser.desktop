@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Doselect Secure Browser
+Exec=doselect-secure-browser %U
+Terminal=false
+Type=Application
+Icon=/opt/Doselect Secure Browser/resources/app.png
+Categories=Network;WebBrowser;
+MimeType=x-scheme-handler/doselect;
